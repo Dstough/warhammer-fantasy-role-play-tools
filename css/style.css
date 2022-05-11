@@ -1,0 +1,72 @@
+@font-face {
+    font-family: seagram;
+    src: url(../fonts/Caslon.ttf);
+}
+
+.wfrp {
+    width: 450px;
+    margin: 10px;
+    background-color: #D6CCA9;
+    padding:15px 20px 15px 20px;
+    box-shadow: inset 0 0 10px 10px rgba(0,0,0,0.3);
+    border-radius: 5px;
+    font-family: seagram;
+}
+.wfrp p b {
+    font-variant-caps: small-caps;
+    font-weight: bold;
+}
+.wfrp h1 {
+    font-variant-caps: small-caps;
+    font-size: 36;
+    color: black;
+    margin: 0;
+}
+
+.wfrp h1 + p {
+    line-height: 15px;
+    margin: 0px;
+    padding-bottom: 10px;
+    font-style: italic;
+    font-size:12pt
+}
+
+.wfrp h2 {
+    font-variant-caps: small-caps;
+    font-size: 28;
+    border-bottom: 2px solid black;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.wfrp .trait {
+    padding-bottom: 10px;
+}
+.wfrp .trait h3 {
+    display: inline;
+    font-size: 18;
+    
+}
+.wfrp .trait h3::after{
+    content: ':';
+}
+.wfrp .trait h3 + p {
+    display: inline;
+    line-height: 17px;
+}
+
+.wfrp table{
+    border-top:2px solid;
+    border-bottom: 2px solid ;
+    margin-bottom: 10px;
+    font-family: seagram;
+    width:100%;
+}
+.wfrp table th{
+    font-variant-caps: small-caps;
+}
+.wfrp table td{
+    text-align: center;
+    padding-bottom: 0px;
+    margin-bottom: 0;
+}
